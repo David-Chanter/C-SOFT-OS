@@ -1,0 +1,114 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+<link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADu7u4B5+fnBejo6Abn5+cEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAObr6wMAAAAAAAAAAO/o6HXx6+t89O/vWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKB7ewT///8xybu776yBgf+XVlb7lFNT+aKBgf7w7e175+fnBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADf2NhrlTg4/4QAAP6KAAD/igQE/4wJCf+XU1P57efnguXl5Qzn5+cG6OjoBejo6AUAAAAAAAAAAM2hoQXbxsZGkhER/5cEBP+OAAD/lAEB/5YFBf+RBAT5pk5Q+ebl6r/o6O+D6urycezs9Wnt7fJXAAAAAAAAAAAAAAAAuVZW/6EDA/+eAAD/oAEB/6MWFv/GcnL/nwYFf35Ofb9VUpr5UVGa+VJSmvxYWJz/lJS8/wAAAADbpqYG5cnJjqQAAPisAAD/qgEB/6kdHfvs9PRsAAAAAEoDZQ0JBb2DBQTB+QQEwf8JCcD+PDzE/////zHf398DxDU1BsZBQX+3AAD5uAAA/7oAAP/Ktrb/AAAAAAAAAAACAvgHAQH4jwAA+P8AAPn+EhL13P//3DXu7uQHAAAAAMcFBQbHBgZ/xgAA+cYAAP/KAAD/xdTU/wAAAAAAAAAAAAAAAAAAAADx/+LZ6vrd+9vi1Nzu8vA14uLiBwAAAADaNzcG3ENDf9MAAPnUAAD/2AAA/7GXl/vw5eVGAAAAALtfXwydAACMmgAA95wAAP+fGxv+uMvL//L29jHf398D9K2tBvjR0Y7dAAD44AAA/98BAf/THx//tbu7/+De3rrw29uG4lBQv+AGBvngAAD53gQE+dsbG/rD4OD/AAAAAAAAAAAAAAAA8l5e/+0DA//uAAD/7QAA/+cKCv/MPDz7ylFR+c5QUPn4UFC//QUFg/wAAH/5CQl//lxcfgAAAAAAAAAA+ZSUBPzJyTH3IiL/9gUF//YAAP/3AQH/9wMD//UJCf/QUVH59NzcgPBwcAz7AAAG+wUFBvN0dAYAAAAAAAAAAAAAAAD8oqIH/9jYMfxaWv/8AAD5+wAA+fsAAPn5BQX51F5e/vbo6FXo6OgFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP6rqwMAAAAA/dPTf/tDQ3/9AwN/+wICff5ERFgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP2trQb7NzcG/QICBvsDAwb2Tk4EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAP//AAD4PwAA8B8AAOAPAADAgQAAg4MAAMOHAADDxwAAw4MAAIABAADADwAA4B8AAPA/AAD//wAA//8AAA==" rel="icon" type="image/x-icon" />
+  <title>C=soft OS</title>
+  
+  
+  
+  
+<style>
+* {
+  cursor: url('data:image/x-icon;base64,AAACAAEAICAQAAAAAADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAD/AKPu9wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAARAAAAESIAAAAAAAAAAAAAEQAAABEiAAAAAAAAAAAAABEAABEiAAAAAAAAAAAAAAARAAARIgAAAAAAAAAAAAAREQARIgAAAAAAAAAAAAAAEREAESIAAAAAAAAAAAAAABERESIAAAAAAAAAAAAAAAAREREiAAAAAAAAAAAAAAARERERERERAAAAAAAAAAAAEREREREREQAAAAAAAAAAABERERERIiIAAAAAAAAAAAARERERESIiAAAAAAAAAAARERERIiIAAAAAAAAAAAAAERERESIiAAAAAAAAAAAAABERIiIAAAAAAAAAAAAAAAARESIiAAAAAAAAAAAAAAARIiIAAAAAAAAAAAAAAAAAESIiAAAAAAAAAAAAAAAAESIAAAAAAAAAAAAAAAAAABEiAAAAAAAAAAAAAAAAAAD////////////////////////////////////////////////////////D////w///DwP//w8D//8MD///DA///AA///wAP//8AP///AD///AAD//wAA//8AAP//AAD//AAP//wAD//8AP///AD///AP///wD///8P////D////w=='), auto;
+}
+li {
+  list-style: none;
+}
+
+.nav-link {
+  font-family: Arial; text-decoration: none; color: #000; font-weight: 500; 
+}
+
+header {
+  position: fixed;top: 0; left: 0; height: 75px; width: 100%; padding: 0px 10px; display: flex; justify-content: space-around; align-items: center; background-color: #f0f0f0;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 650px) {
+  nav {
+    width: 100%; margin-top: 10px; display: flex; flex-direction: column; align-items: center; text-align: center; padding: 0 50px;
+  }
+  li {
+    padding-bottom: 5px;
+  }
+}
+
+ul {
+  display: flex; flex-direction: row; justify-content: space-around; width: 30vw; 
+}
+
+h1 {
+  font-family: Calibri; margin-left: 30px; margin-right: 30px; font-size: 30px; color: #192880;
+}
+
+p {
+  font-family: Calibri; margin-left: 30px; margin-right: 30px; font-size: 20px; color: #2a2a2b;
+}
+#email {
+  margin-left: 30px; border-radius: 5px; font-size: 20px; font-family: Arial; border-color: #000000;
+}
+#submit {
+  border-radius: 5px; font-size: 20px; background: #192880; color: white; border-color: #000000;
+}
+
+div {
+  text-align: center;
+}
+</style>
+
+  
+  
+  
+  
+
+</head>
+
+<body translate="no" >
+  <header id="header">
+  <img id="header-img" src="https://albumizr.com/ia/55ca07d91b5fd2f4398eb46bfda0d6d7.jpg" width="70px">
+  <nav id="nav-bar">
+    <ul>
+    <li><a class="nav-link" href="#About">About</a></li>
+      
+    <li><a class="nav-link" href="#Requirements">Requirements</a></li>
+    <li><a class="nav-link" href="#Download">Download</a></li>
+    </ul>
+  </nav>
+    </header>
+  <img src="https://albumizr.com/ia/80cea7f19c87a2493199b973d3dd3596.jpg" width="100%" alt="Banner">
+<section id="About">
+  <h1>About</h1>
+  <p>OS is a fast, reliable Graphical User Interface Operating Environment for the Commodore 64. It is free to download, and it comes with several multi-purpose applications built in for Business or Personal use. It is written in BASIC, so it can be edited with ease. If you do not wish to edit it, it will work as a fully-functional operating system. Originally, I had created a Word Processor and I wanted to give it a fancy loader or launcher like some old games and software form the 1980s. Once I had designed it, I thought "Why not turn this into an operating system?", and that I did.</p>
+  <section>
+    <div>
+    <iframe id="video" src="https://drive.google.com/file/d/1e4xm7a0QJXmPaKN9SWqDu852DsV98aPP/preview"  height="360px" width="640px" frameborder="0"></iframe>
+    </div>
+  <section id="Requirements">
+  <h1>Requirements</h1>
+    <p>In order to get the best OS experience, you will need to have a Commodore 64, 64C, 64G, SX-64, 128 (in 64 mode), an emulator (eg. VICE), THEC64, THEC64 Mini, or THEVIC20. If you have more than one of these platforms, you should use the best one. You will also need to have one of the following storage devices: Commodore disk drive, SD2IEC, Pi1541, or a USB stick (For THEC64 line of computers).</p>
+    <section id="Download">
+  <h1>Download OS</h1>
+      <p>The most recent public release of OS is version 2.2. Every version of OS can be found <a href="https://drive.google.com/drive/u/1/folders/1iVM9Z5uUYT2K0i5tCKxDjrH7Pak5p7IX" target="_blank">here</a>. If you want to receive notifications, please enter your email address in the box below.</p>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input id="email" type="email" placeholder="Enter Email Address..." name="email" required></input>
+      <input id="submit" type="submit" value="Submit">
+        </form>
+    <h1>Future Plans</h1>
+    <p>I have many plans for features to add to OS. Some that you can expect in near updates (Probably V2.4+) include: Printer Support, Mouse Support, Mini games, and even more! </p>
+  
+  
+  
+  
+
+</body>
+
+</html>
+ 
